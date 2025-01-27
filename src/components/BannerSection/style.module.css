@@ -1,0 +1,60 @@
+.bannerSection{
+    width: 100%;
+    height: 652px;
+    border-bottom:3px solid #F8F9FA;
+    background-color: var(--grey-1);
+}
+.bannerDiv{
+    display: flex;
+    width: 57%;
+    padding: 98px 238px;
+    flex-direction: column;
+    gap:2rem;
+    
+}
+.color{
+    color: var(--color-title);
+    font-size: bold 38px;
+    font-weight: 700;
+
+}
+.bannerDiv span{
+    color: var(--color-primary);
+}
+.bannerDiv p{
+    color: var(--color-subtitle);
+}
+.perfil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+}
+.btnGabriel{
+    width: 46px;
+    height: 46px;   
+    border-radius: 150px;
+}
+.imgGabriel{
+    border-radius: 150px;
+    width: 100%;
+    height: 100%;
+}
+.btnConfig{
+    display: flex;
+    gap: 1.5rem;
+}
+.btnProject{
+    background-color:var(--color-primary) ;
+    color: #F8F9FA;
+    width: 160px;
+    height: 48px;
+    top: 400px;
+    left: 238px;
+    border-radius: 6px;
+}
+.iconConfig{
+    display: flex;
+    gap: 1.5rem;
+    cursor: pointer;
+}

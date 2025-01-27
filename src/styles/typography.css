@@ -1,0 +1,12 @@
+.contactText{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 360px;
+}
+.contactText h2{
+    color: var(--color-title);
+}
+.contactText p{
+    color: var(--color-subtitle);
+}

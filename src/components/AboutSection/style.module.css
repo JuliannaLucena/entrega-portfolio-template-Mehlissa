@@ -1,0 +1,76 @@
+.aboutSection {
+    width: 100%;
+    padding: 56px 236px;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 56px;
+}
+.color {
+    color: var(--color-title);
+}
+
+.subtitle {
+    color: var(--color-subtitle);
+}
+
+.aboutSection span {
+    color: var(--color-tertiary);
+}
+
+.textBox {
+    width: 482px;
+    height: 226px;
+}
+.textBox__01{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding-bottom: 26px;
+}
+.newBox {
+    width: 43px;
+    height: 22px;
+    border-radius: 4px;
+    background-color: var(--color-tertiary-50);
+    display: flex;
+    justify-content: center;
+    color: var(--color-title);
+}
+.newBox__01{
+    width: 86px;
+    height: 24px;
+    border-radius: 4px;
+    background-color:#121214 ;
+    color: #868E96;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    align-items: center;
+}
+.subtitle__01 {
+    color: var(--color-subtitle);
+    padding-bottom: 26px;
+}
+.divFinal{
+    display: flex;
+    gap: 2.5rem;
+}
+.divFinal__01{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    color: var(--color-subtitle);
+}
+.img{
+    width: 24px;
+}
+.sectionBox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1.5rem;
+}

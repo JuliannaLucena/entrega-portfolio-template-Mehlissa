@@ -1,38 +1,39 @@
-import imageWhats from "../../assets/whatsapp-icon.png";
-import imageLinkedin from "../../assets/linkedin-icon.png";
-import imageGithub from "../../assets/github-icon.png";
-import { user } from "../../data/user.js";
-
-import "../Footer/style.css";
+import styles from "./style.module.css"
+import eu from "../../assets/gabriel01.jpg"
+import insta from "../../assets/instagram.png"
+import facebook from "../../assets/facebook.png"
+import linkedin from "../../assets/linkedin.png"
 
 export const Footer = () => {
     return (
-        <footer className="footer">
-            <div className="footer__divPrimary">
-                <h1>Contato</h1>
-                <div className="footer__images">
-                    <img
-                        className="fotter__images--img"
-                        src={imageWhats}
-                        alt=""
-                    />
-                    <img
-                        className="fotter__images--img"
-                        src={imageLinkedin}
-                        alt=""
-                    />
-                    <img
-                        className="fotter__images--img"
-                        src={imageGithub}
-                        alt=""
-                    />
+        <footer className={styles.footer}>
+            <div className={styles.footerDiv}>
+                <div className={styles.perfil}>
+                    <button className={styles.btnGabriel}>
+                        <img src={eu} alt="perfilGabriel" className={styles.imgGabriel} />
+                    </button>
+                    <div>
+                        <h2>
+                            Thank you!
+                        </h2>
+                        <p>
+                            Follow me on my social networks and let's talk
+                        </p>
+                    </div>
+                </div>
+                <div className={styles.buttons}>
+                    <button className={styles.iconFace}>
+                        <img src={facebook} alt="face-icon" className={styles.btnFacebook}/>
+                    </button>
+                    <button className={styles.iconInsta}>
+                        <img src={insta} alt="face-icon" className={styles.btnInsta}/>
+                    </button>
+                    <button className={styles.iconLinkedin}>
+                        <img src={linkedin} alt="face-icon" className={styles.btnLinkedin}/>
+                    </button>
                 </div>
             </div>
 
-            <div className="footer__divSegundary">
-                <p className="footer__text">Todos os direitos reservados -</p>
-                <p>{user}</p>
-            </div>
         </footer>
-    );
-};
+    )
+}

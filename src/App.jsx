@@ -1,31 +1,12 @@
-import "./style/reset.css";
-import "./style/globalStyle.css";
-import { Header } from "./components/Header";
-import { Section } from "./components/BannerSection";
-import { DivImage } from "./components/DivImage";
-import { AboutMeSection } from "./components/AboutMeSection";
-import { TechSection } from "./components/TechSection";
-import { ProjectSection } from "./components/ProjectsSection";
-import { Footer } from "./components/Footer";
+import { HomePage } from "./pages/HomePage"
+import "./styles/index.css"
 
-function App() {
-    return (
-        <>
-            <Header />
-            <main className="main">
-                <Section />
-
-                <DivImage />
-
-                <AboutMeSection />
-
-                <TechSection />
-
-                <ProjectSection />
-            </main>
-            <Footer />
-        </>
-    );
+export const App = () => {
+  return (
+    <div className="App">
+      <HomePage />
+    </div>
+  )
 }
 
-export default App;
+export default App
